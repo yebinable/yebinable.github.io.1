@@ -1,8 +1,8 @@
-site: Yebinable Tech Blog
-title: Yebinable Tech Blog
+site: Yebinable 기술 블로그
+title: Yebinable 기술 블로그
 greetings: Hi, This is Yebinable 👋
 description: >-
-  개발하면서 마주친 사건의 기록들..
+  개발하면서 마주친 사건의 기록 
 lang: ko-KR # en-US
 timezone: Asia/Seoul # Europe/Rome
 repo: https://github.com/yebinable # site repo [optional]
@@ -10,7 +10,7 @@ data-theme: dark # default theme "dark" | "light"
 
 author:
   name: Yebinable
-  bio: 개발하면서 마주친 사건의 기록들
+  bio: 개발하면서 마주친 사건의 기록
   userpicture: 
   username: Yebinable # general username
   github: Yebinable # github username
