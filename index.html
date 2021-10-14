@@ -33,20 +33,7 @@ layout: default
     <input type="search" id="search-input" placeholder="Find some articles here" aria-label="Search">
     <ul id="search-results"></ul>
 </div>
-<section class="tags">
-    <h2 style="margin-bottom:0;">Tags</h2>
-    {% assign tags = site.tags | sort %}
-    {% for tag in tags %}
-    <ul>
-      <li>
-          <a class="posts" href="{{ site.url }}{{ site.baseurl }}/tag/{{ tag | first | slugify }}/">{{ tag[0] | replace:'-', ' '
-          }} ({{ tag | last | size
-          }}){% unless forloop.last %}, {% endunless %}
-        </a>
-      </li>
-    </ul>
-    {% endfor %}
-  </section>
+
 <section class="posts" id="Blog">
     <h2>BLOG</h2>
     <ul>
