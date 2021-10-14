@@ -4,7 +4,7 @@
  <title>Yebinable 기술 블로그</title>
  <link href="https://yebinable.github.io/atom.xml" rel="self"/>
  <link href="https://yebinable.github.io/"/>
- <updated>2021-10-14T20:48:50+09:00</updated>
+ <updated>2021-10-14T21:12:23+09:00</updated>
  <id>https://yebinable.github.io</id>
  <author>
    <name>Yebinable</name>
@@ -23,6 +23,8 @@
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git credential-osxkeychain erase&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;이후에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push&lt;/code&gt; 를 진행하면, credential 을 새롭게 입력하라고 안내가 나온다.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;![[Pasted image 20211014205234.png]]&lt;/p&gt;
 </content>
  </entry>
  
