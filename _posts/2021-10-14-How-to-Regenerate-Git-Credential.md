@@ -3,7 +3,7 @@ layout: post
 title: How to Regenerate Git Credential
 description: How to Regenerate Git Credential
 summary: How to Regenerate Git Credential
-tags: [git, jekyll]
+tags: [git]
 ---
 
 # via Command line
