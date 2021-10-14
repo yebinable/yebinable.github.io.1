@@ -1,9 +1,9 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Yebinable Tech Blog",
+    "title": "Yebinable 기술 블로그",
     "home_page_url": "https://yebinable.github.io/",
     "feed_url": "https://yebinable.github.io/feed.json",
-    "description": "개발하면서 마주친 사건의 기록들..",
+    "description": "개발하면서 마주친 사건의 기록 ",
     "icon": "https://yebinable.github.io/apple-touch-icon.png",
     "favicon": "https://yebinable.github.io/favicon.ico",
     "expired": false,
