@@ -4,7 +4,7 @@
  <title>Yebinable 기술 블로그</title>
  <link href="https://yebinable.github.io/atom.xml" rel="self"/>
  <link href="https://yebinable.github.io/"/>
- <updated>2021-10-14T22:48:28+09:00</updated>
+ <updated>2021-10-14T22:53:55+09:00</updated>
  <id>https://yebinable.github.io</id>
  <author>
    <name>Yebinable</name>
@@ -19,6 +19,8 @@
    <id>https://yebinable.github.io/2021/10/14/ZSH-SHELL-환경변수등록하기</id>
    <content type="html">&lt;p&gt;TEST Post
 &lt;img src=&quot;test.png&quot; alt=&quot;Test&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/2021-10-14-22-51-28.png&quot; alt=&quot;Test2&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
