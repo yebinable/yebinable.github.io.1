@@ -1,28 +1,28 @@
-site: Gesko
-title: Gesko
-greetings: Hi 👋
+site: Yebinable Tech Blog
+title: Yebinable Tech Blog
+greetings: Hi, This is Yebinable 👋
 description: >-
-  just a minimalist, personal blog
-lang: en-US
-timezone:  Europe/Rome
-repo: https://github.com/p0wex/Gesko # site repo [optional]
+  개발하면서 마주친 사건의 기록들..
+lang: ko-KR # en-US
+timezone: Asia/Seoul # Europe/Rome
+repo: https://github.com/yebinable # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
 
 author:
-  name: p0wex
-  bio: just a minimalist, personal blog
+  name: Yebinable
+  bio: 개발하면서 마주친 사건의 기록들
   userpicture: 
-  username: p0wex # general username
-  github: p0wex # github username
-  twitter: P0Wex # twitter username
-  email: your-email@email.com # email adress
+  username: Yebinable # general username
+  github: Yebinable # github username
+  # twitter: P0Wex # twitter username
+  email: yebinable@kakao.com # email address
 
 # Font Settings
 googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900
 
 # URL settings
-url: "https://powex.ml" # Domain Name of host. [username].github.io for github pages
-baseurl: "/Gesko" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
+url: "https://yebinable.github.io" # Domain Name of host. [username].github.io for github pages
+baseurl: # "/Gesko" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
 permalink: pretty
 
 # local
