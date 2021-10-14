@@ -16,5 +16,29 @@
     
 "items": [
     
+        {
+            "id": "https://yebinable.github.io/2021/10/14/how-to-regenerate-git-credential",
+            "title": "How to Regenerate Git Credential",
+            "summary": "How to Regenerate Git Credential",
+            "content_text": "Via Command line      심플하게 아래의 커맨드를 터미널을 이용해 입력하면, 나의 컴퓨터에 등록된 credential 키체인 정보를 초기화할 수 있다.git credential-osxkeychain erase        이후에 git push 를 진행하면, credential 을 새롭게 입력하라고 안내가 나온다.  ",
+            "content_html": "<h1 id=\"via-command-line\">Via Command line</h1><ul>  <li>    <p>심플하게 아래의 커맨드를 터미널을 이용해 입력하면, 나의 컴퓨터에 등록된 credential 키체인 정보를 초기화할 수 있다.<code class=\"language-plaintext highlighter-rouge\">git credential-osxkeychain erase</code></p>  </li>  <li>    <p>이후에 <code class=\"language-plaintext highlighter-rouge\">git push</code> 를 진행하면, credential 을 새롭게 입력하라고 안내가 나온다.</p>  </li></ul>",
+            "url": "https://yebinable.github.io/2021/10/14/how-to-regenerate-git-credential",
+            
+            
+            
+            
+            
+            "date_published": "2021-10-14T00:00:00+09:00",
+            "date_modified": "2021-10-14T00:00:00+09:00",
+            
+                "author":  {
+                "name": "Yebinable",
+                "url": null,
+                "avatar": null
+                }
+                
+            
+        }
+    
     ]
 }
