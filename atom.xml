@@ -4,7 +4,7 @@
  <title>Yebinable 기술 블로그</title>
  <link href="https://yebinable.github.io/atom.xml" rel="self"/>
  <link href="https://yebinable.github.io/"/>
- <updated>2021-10-14T22:53:55+09:00</updated>
+ <updated>2021-10-14T23:13:29+09:00</updated>
  <id>https://yebinable.github.io</id>
  <author>
    <name>Yebinable</name>
@@ -17,10 +17,33 @@
    <link href="https://yebinable.github.io/2021/10/14/zsh-shell-%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0"/>
    <updated>2021-10-14T00:00:00+09:00</updated>
    <id>https://yebinable.github.io/2021/10/14/ZSH-SHELL-환경변수등록하기</id>
-   <content type="html">&lt;p&gt;TEST Post
-&lt;img src=&quot;test.png&quot; alt=&quot;Test&quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;h2 id=&quot;1-어떤-shell을-사용하고-있는지-확인하기&quot;&gt;1. 어떤 Shell을 사용하고 있는지 확인하기&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/img/2021-10-14-22-51-28.png&quot; alt=&quot;Test2&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;터미널에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;echo $SHELL&lt;/code&gt; 입력해서 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/bin/zsh&lt;/code&gt;를 리턴 받았다면, zsh shell 을 사용하고 있는 중
+&lt;img src=&quot;/img/2021-10-14-22-58-12.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;zshrc-파일-찾기&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.zshrc&lt;/code&gt; 파일 찾기&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ls -a&lt;/code&gt; 를 입력하여 숨겨진 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.zshrc&lt;/code&gt; 설정 파일을 찾아 오픈
+&lt;img src=&quot;/img/2021-10-14-23-03-18.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;환경변수-등록하기&quot;&gt;환경변수 등록하기&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.zshrc&lt;/code&gt; 오픈 후, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;export {환경변수명}=$HOME/폴더 또는 파일이 위치한 경로&lt;/code&gt;로 환경변수를 등록 후 저장&lt;/li&gt;
+  &lt;li&gt;e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;export BLOG_HOME=$HOME/Development/yebinable.github.io&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;BLOG_HOME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$HOME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Development&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;yebinable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;io&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;정상적으로-등록되었는지-확인하기&quot;&gt;정상적으로 등록되었는지 확인하기&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;터미널을 새로 시작하여 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;echo $BLOG_HOME&lt;/code&gt; 입력 후, 경로가 정상적으로 리턴되면 성공 ^^
+&lt;img src=&quot;/img/2021-10-14-23-11-20.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  
