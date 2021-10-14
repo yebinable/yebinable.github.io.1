@@ -4,6 +4,14 @@
       "title"    : "How to Regenerate Git Credential",
       "category" : "",
       "tags"     : "git",
+      "url"      : "/2021/10/14/zsh-shell-%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0",
+      "date"     : "2021-10-14 00:00:00 +0900"
+    } ,
+  
+    {
+      "title"    : "How to Regenerate Git Credential",
+      "category" : "",
+      "tags"     : "git",
       "url"      : "/2021/10/14/how-to-regenerate-git-credential",
       "date"     : "2021-10-14 00:00:00 +0900"
     } 
