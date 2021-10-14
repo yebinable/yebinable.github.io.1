@@ -4,7 +4,7 @@
  <title>Yebinable 기술 블로그</title>
  <link href="https://yebinable.github.io/atom.xml" rel="self"/>
  <link href="https://yebinable.github.io/"/>
- <updated>2021-10-14T21:31:55+09:00</updated>
+ <updated>2021-10-14T21:36:57+09:00</updated>
  <id>https://yebinable.github.io</id>
  <author>
    <name>Yebinable</name>
@@ -13,13 +13,13 @@
 
  
  <entry>
-   <title></title>
-   <link href="https://yebinable.github.io/2021/10/14/2021-10-14-zsh-shell-%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0"/>
-   <updated>2021-10-14T21:31:55+09:00</updated>
-   <id>https://yebinable.github.io/2021/10/14/2021-10-14-ZSH-SHELL-환경변수등록하기</id>
+   <title>zsh shell 환경변수 등록하기</title>
+   <link href="https://yebinable.github.io/2021/10/14/zsh-shell-%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0"/>
+   <updated>2021-10-14T00:00:00+09:00</updated>
+   <id>https://yebinable.github.io/2021/10/14/ZSH-SHELL-환경변수등록하기</id>
    <content type="html">&lt;p&gt;TEST Post&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;./img/iShot2021-10-14 21.18.58.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/iShot2021-10-14 21.18.58.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  

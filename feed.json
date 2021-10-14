@@ -17,19 +17,19 @@
 "items": [
     
         {
-            "id": "https://yebinable.github.io/2021/10/14/2021-10-14-zsh-shell-%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0",
-            "title": null,
-            "summary": null,
+            "id": "https://yebinable.github.io/2021/10/14/zsh-shell-%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0",
+            "title": "zsh shell 환경변수 등록하기",
+            "summary": "zsh shell 환경변수 등록하기",
             "content_text": "TEST Post",
-            "content_html": "<p>TEST Post</p><p><img src=\"./img/iShot2021-10-14 21.18.58.png\" alt=\"image\" /></p>",
-            "url": "https://yebinable.github.io/2021/10/14/2021-10-14-zsh-shell-%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0",
+            "content_html": "<p>TEST Post</p><p><img src=\"/img/iShot2021-10-14 21.18.58.png\" alt=\"image\" /></p>",
+            "url": "https://yebinable.github.io/2021/10/14/zsh-shell-%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0",
             
             
             
+            "tags": ["oh-my-zsh","git"],
             
-            
-            "date_published": "2021-10-14T21:31:55+09:00",
-            "date_modified": "2021-10-14T21:31:55+09:00",
+            "date_published": "2021-10-14T00:00:00+09:00",
+            "date_modified": "2021-10-14T00:00:00+09:00",
             
                 "author":  {
                 "name": "Yebinable",
