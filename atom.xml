@@ -4,7 +4,7 @@
  <title>Yebinable 기술 블로그</title>
  <link href="https://yebinable.github.io/atom.xml" rel="self"/>
  <link href="https://yebinable.github.io/"/>
- <updated>2021-10-14T20:32:47+09:00</updated>
+ <updated>2021-10-14T20:44:16+09:00</updated>
  <id>https://yebinable.github.io</id>
  <author>
    <name>Yebinable</name>
@@ -17,15 +17,11 @@
    <link href="https://yebinable.github.io/2021/10/14/how-to-regenerate-git-credential"/>
    <updated>2021-10-14T00:00:00+09:00</updated>
    <id>https://yebinable.github.io/2021/10/14/How-to-Regenerate-Git-Credential</id>
-   <content type="html">&lt;h1 id=&quot;via-command-line&quot;&gt;Via Command line&lt;/h1&gt;
+   <content type="html">&lt;h1 id=&quot;via-command-line&quot;&gt;via Command line&lt;/h1&gt;
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;심플하게 아래의 커맨드를 터미널을 이용해 입력하면, 나의 컴퓨터에 등록된 credential 키체인 정보를 초기화할 수 있다.
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git credential-osxkeychain erase&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;이후에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push&lt;/code&gt; 를 진행하면, credential 을 새롭게 입력하라고 안내가 나온다.&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;심플하게 아래의 커맨드를 터미널을 이용해 입력하면, 나의 컴퓨터에 등록된 credential 키체인 정보를 초기화할 수 있다.
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git credential-osxkeychain erase&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;이후에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push&lt;/code&gt; 를 진행하면, credential 을 새롭게 입력하라고 안내가 나온다.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>
