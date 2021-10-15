@@ -28,8 +28,8 @@
             
             
             
-            "date_published": "2021-10-15T10:26:55+09:00",
-            "date_modified": "2021-10-15T10:26:55+09:00",
+            "date_published": "2021-10-15T10:28:40+09:00",
+            "date_modified": "2021-10-15T10:28:40+09:00",
             
                 "author":  {
                 "name": "Yebinable",
@@ -41,19 +41,19 @@
         },
     
         {
-            "id": "https://yebinable.github.io/2021/10/15/2021-10-15-git-favorite-commands",
-            "title": null,
-            "summary": null,
+            "id": "https://yebinable.github.io/2021/10/15/git-favorite-commands",
+            "title": "Git 자주쓰는 명령어 모음",
+            "summary": "git 자주쓰는 명령어 모음",
             "content_text": "            Command      Description                  git config --list      - git config load              git config --get user.email      - git config 설정 중에 user.email 값 가져오기              git config user.email \"yebinable@kakao.com\"      - user.email 값 설정              git credential-osxkeychain erase      - 최초 설정 된 git credential 초기화              git config --global add-commit \"git add . &amp;&amp; git commit\"      - git add &amp; commit 을 동시에 한번에 실행할 수 있도록 커멘드 등록하기      ",
             "content_html": "<table>  <thead>    <tr>      <th>Command</th>      <th>Description</th>    </tr>  </thead>  <tbody>    <tr>      <td><code class=\"language-plaintext highlighter-rouge\">git config --list</code></td>      <td>- git config load</td>    </tr>    <tr>      <td><code class=\"language-plaintext highlighter-rouge\">git config --get user.email</code></td>      <td>- git config 설정 중에 user.email 값 가져오기</td>    </tr>    <tr>      <td><code class=\"language-plaintext highlighter-rouge\">git config user.email \"yebinable@kakao.com\"</code></td>      <td>- user.email 값 설정</td>    </tr>    <tr>      <td><code class=\"language-plaintext highlighter-rouge\">git credential-osxkeychain erase</code></td>      <td>- 최초 설정 된 git credential 초기화</td>    </tr>    <tr>      <td><code class=\"language-plaintext highlighter-rouge\">git config --global add-commit \"git add . &amp;&amp; git commit\"</code></td>      <td>- git add &amp; commit 을 동시에 한번에 실행할 수 있도록 커멘드 등록하기</td>    </tr>  </tbody></table>",
-            "url": "https://yebinable.github.io/2021/10/15/2021-10-15-git-favorite-commands",
+            "url": "https://yebinable.github.io/2021/10/15/git-favorite-commands",
             
             
             
             
             
-            "date_published": "2021-10-15T10:26:55+09:00",
-            "date_modified": "2021-10-15T10:26:55+09:00",
+            "date_published": "2021-10-15T00:00:00+09:00",
+            "date_modified": "2021-10-15T00:00:00+09:00",
             
                 "author":  {
                 "name": "Yebinable",
