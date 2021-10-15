@@ -1,8 +1,8 @@
 ---
 layout: post
-title: [Google] Report API Sample
-description: [Google] Report API Sample
-summary: [Google] Report API Sample
+title: Google Report API Sample
+description: Google Report API Sample
+summary: Google Report API Sample
 tags: [3rd-party-api, google]
 ---
 
