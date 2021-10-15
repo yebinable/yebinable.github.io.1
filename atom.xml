@@ -4,13 +4,51 @@
  <title>Yebinable 기술 블로그</title>
  <link href="https://yebinable.github.io/atom.xml" rel="self"/>
  <link href="https://yebinable.github.io/"/>
- <updated>2021-10-14T23:17:11+09:00</updated>
+ <updated>2021-10-15T09:25:28+09:00</updated>
  <id>https://yebinable.github.io</id>
  <author>
    <name>Yebinable</name>
    <email>yebinable@kakao.com</email>
  </author>
 
+ 
+ <entry>
+   <title></title>
+   <link href="https://yebinable.github.io/2021/10/15/2021-10-15-git-favorite-commands"/>
+   <updated>2021-10-15T09:25:28+09:00</updated>
+   <id>https://yebinable.github.io/2021/10/15/2021-10-15-Git-Favorite-Commands</id>
+   <content type="html">&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Command&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git config --list&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;- git config load&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git config --get user.email&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;- git config 설정 중에 user.email 값 가져오기&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git config user.email &quot;yebinable@kakao.com&quot;&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;- user.email 값 설정&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git credential-osxkeychain erase&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;- 최초 설정 된 git credential 초기화&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git config --global add-commit &quot;git add . &amp;amp;&amp;amp; git commit&quot;&lt;/code&gt;&lt;/td&gt;
+      &lt;td&gt;- git add &amp;amp; commit 을 동시에 한번에 실행할 수 있도록 커멘드 등록하기&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+ </entry>
  
  <entry>
    <title>zsh shell 환경변수 등록하기</title>
@@ -43,20 +81,6 @@
 &lt;ul&gt;
   &lt;li&gt;터미널을 새로 시작하여 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;echo $BLOG_HOME&lt;/code&gt; 입력 후, 경로가 정상적으로 리턴되면 성공 ^^
 &lt;img src=&quot;/img/2021-10-14-23-11-20.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>How to Regenerate Git Credential</title>
-   <link href="https://yebinable.github.io/2021/10/14/how-to-regenerate-git-credential"/>
-   <updated>2021-10-14T00:00:00+09:00</updated>
-   <id>https://yebinable.github.io/2021/10/14/How-to-Regenerate-Git-Credential</id>
-   <content type="html">&lt;h1 id=&quot;via-command-line&quot;&gt;via Command line&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;심플하게 아래의 커맨드를 터미널을 이용해 입력하면, 나의 컴퓨터에 등록된 credential 키체인 정보를 초기화할 수 있다.
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git credential-osxkeychain erase&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;이후에 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push&lt;/code&gt; 를 진행하면, credential 을 새롭게 입력하라고 안내가 나온다.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>

@@ -17,19 +17,19 @@
 "items": [
     
         {
-            "id": "https://yebinable.github.io/2021/10/14/zsh-shell-%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0",
-            "title": "zsh shell 환경변수 등록하기",
-            "summary": "zsh shell 환경변수 등록하기",
-            "content_text": "1. 어떤 Shell을 사용하고 있는지 확인하기  터미널에 echo $SHELL 입력해서 /bin/zsh를 리턴 받았다면, zsh shell 을 사용하고 있는 중2. .zshrc 파일 찾기  ls -a 를 입력하여 숨겨진 .zshrc 설정 파일을 찾아 오픈3. 환경변수 등록하기  .zshrc 오픈 후, export {환경변수명}=$HOME/폴더 또는 파일이 위치한 경로로 환경변수를 등록 후 저장  e.g. export BLOG_HOME=$HOME/Development/yebinable.github.io    export BLOG_HOME=$HOME/Development/yebinable.github.io      4. 정상적으로 등록되었는지 확인하기  터미널을 새로 시작하여 echo $BLOG_HOME 입력 후, 경로가 정상적으로 리턴되면 성공 ^^",
-            "content_html": "<h2 id=\"1-어떤-shell을-사용하고-있는지-확인하기\">1. 어떤 Shell을 사용하고 있는지 확인하기</h2><ul>  <li>터미널에 <code class=\"language-plaintext highlighter-rouge\">echo $SHELL</code> 입력해서 <code class=\"language-plaintext highlighter-rouge\">/bin/zsh</code>를 리턴 받았다면, zsh shell 을 사용하고 있는 중<img src=\"/img/2021-10-14-22-58-12.png\" alt=\"\" /></li></ul><h2 id=\"2-zshrc-파일-찾기\">2. <code class=\"language-plaintext highlighter-rouge\">.zshrc</code> 파일 찾기</h2><ul>  <li><code class=\"language-plaintext highlighter-rouge\">ls -a</code> 를 입력하여 숨겨진 <code class=\"language-plaintext highlighter-rouge\">.zshrc</code> 설정 파일을 찾아 오픈<img src=\"/img/2021-10-14-23-03-18.png\" alt=\"\" /></li></ul><h2 id=\"3-환경변수-등록하기\">3. 환경변수 등록하기</h2><ul>  <li><code class=\"language-plaintext highlighter-rouge\">.zshrc</code> 오픈 후, <code class=\"language-plaintext highlighter-rouge\">export {환경변수명}=$HOME/폴더 또는 파일이 위치한 경로</code>로 환경변수를 등록 후 저장</li>  <li>e.g. <code class=\"language-plaintext highlighter-rouge\">export BLOG_HOME=$HOME/Development/yebinable.github.io</code>    <div class=\"language-js highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"k\">export</span> <span class=\"nx\">BLOG_HOME</span><span class=\"o\">=</span><span class=\"nx\">$HOME</span><span class=\"o\">/</span><span class=\"nx\">Development</span><span class=\"o\">/</span><span class=\"nx\">yebinable</span><span class=\"p\">.</span><span class=\"nx\">github</span><span class=\"p\">.</span><span class=\"nx\">io</span></code></pre></div>    </div>  </li></ul><h2 id=\"4-정상적으로-등록되었는지-확인하기\">4. 정상적으로 등록되었는지 확인하기</h2><ul>  <li>터미널을 새로 시작하여 <code class=\"language-plaintext highlighter-rouge\">echo $BLOG_HOME</code> 입력 후, 경로가 정상적으로 리턴되면 성공 ^^<img src=\"/img/2021-10-14-23-11-20.png\" alt=\"\" /></li></ul>",
-            "url": "https://yebinable.github.io/2021/10/14/zsh-shell-%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0",
+            "id": "https://yebinable.github.io/2021/10/15/2021-10-15-git-favorite-commands",
+            "title": null,
+            "summary": null,
+            "content_text": "            Command      Description                  git config --list      - git config load              git config --get user.email      - git config 설정 중에 user.email 값 가져오기              git config user.email \"yebinable@kakao.com\"      - user.email 값 설정              git credential-osxkeychain erase      - 최초 설정 된 git credential 초기화              git config --global add-commit \"git add . &amp;&amp; git commit\"      - git add &amp; commit 을 동시에 한번에 실행할 수 있도록 커멘드 등록하기      ",
+            "content_html": "<table>  <thead>    <tr>      <th>Command</th>      <th>Description</th>    </tr>  </thead>  <tbody>    <tr>      <td><code class=\"language-plaintext highlighter-rouge\">git config --list</code></td>      <td>- git config load</td>    </tr>    <tr>      <td><code class=\"language-plaintext highlighter-rouge\">git config --get user.email</code></td>      <td>- git config 설정 중에 user.email 값 가져오기</td>    </tr>    <tr>      <td><code class=\"language-plaintext highlighter-rouge\">git config user.email \"yebinable@kakao.com\"</code></td>      <td>- user.email 값 설정</td>    </tr>    <tr>      <td><code class=\"language-plaintext highlighter-rouge\">git credential-osxkeychain erase</code></td>      <td>- 최초 설정 된 git credential 초기화</td>    </tr>    <tr>      <td><code class=\"language-plaintext highlighter-rouge\">git config --global add-commit \"git add . &amp;&amp; git commit\"</code></td>      <td>- git add &amp; commit 을 동시에 한번에 실행할 수 있도록 커멘드 등록하기</td>    </tr>  </tbody></table>",
+            "url": "https://yebinable.github.io/2021/10/15/2021-10-15-git-favorite-commands",
             
             
             
             
             
-            "date_published": "2021-10-14T00:00:00+09:00",
-            "date_modified": "2021-10-14T00:00:00+09:00",
+            "date_published": "2021-10-15T09:25:28+09:00",
+            "date_modified": "2021-10-15T09:25:28+09:00",
             
                 "author":  {
                 "name": "Yebinable",
@@ -41,12 +41,12 @@
         },
     
         {
-            "id": "https://yebinable.github.io/2021/10/14/how-to-regenerate-git-credential",
-            "title": "How to Regenerate Git Credential",
-            "summary": "How to Regenerate Git Credential",
-            "content_text": "via Command line  심플하게 아래의 커맨드를 터미널을 이용해 입력하면, 나의 컴퓨터에 등록된 credential 키체인 정보를 초기화할 수 있다.git credential-osxkeychain erase  이후에 git push 를 진행하면, credential 을 새롭게 입력하라고 안내가 나온다.",
-            "content_html": "<h1 id=\"via-command-line\">via Command line</h1><ul>  <li>심플하게 아래의 커맨드를 터미널을 이용해 입력하면, 나의 컴퓨터에 등록된 credential 키체인 정보를 초기화할 수 있다.<code class=\"language-plaintext highlighter-rouge\">git credential-osxkeychain erase</code></li>  <li>이후에 <code class=\"language-plaintext highlighter-rouge\">git push</code> 를 진행하면, credential 을 새롭게 입력하라고 안내가 나온다.</li></ul>",
-            "url": "https://yebinable.github.io/2021/10/14/how-to-regenerate-git-credential",
+            "id": "https://yebinable.github.io/2021/10/14/zsh-shell-%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0",
+            "title": "zsh shell 환경변수 등록하기",
+            "summary": "zsh shell 환경변수 등록하기",
+            "content_text": "1. 어떤 Shell을 사용하고 있는지 확인하기  터미널에 echo $SHELL 입력해서 /bin/zsh를 리턴 받았다면, zsh shell 을 사용하고 있는 중2. .zshrc 파일 찾기  ls -a 를 입력하여 숨겨진 .zshrc 설정 파일을 찾아 오픈3. 환경변수 등록하기  .zshrc 오픈 후, export {환경변수명}=$HOME/폴더 또는 파일이 위치한 경로로 환경변수를 등록 후 저장  e.g. export BLOG_HOME=$HOME/Development/yebinable.github.io    export BLOG_HOME=$HOME/Development/yebinable.github.io      4. 정상적으로 등록되었는지 확인하기  터미널을 새로 시작하여 echo $BLOG_HOME 입력 후, 경로가 정상적으로 리턴되면 성공 ^^",
+            "content_html": "<h2 id=\"1-어떤-shell을-사용하고-있는지-확인하기\">1. 어떤 Shell을 사용하고 있는지 확인하기</h2><ul>  <li>터미널에 <code class=\"language-plaintext highlighter-rouge\">echo $SHELL</code> 입력해서 <code class=\"language-plaintext highlighter-rouge\">/bin/zsh</code>를 리턴 받았다면, zsh shell 을 사용하고 있는 중<img src=\"/img/2021-10-14-22-58-12.png\" alt=\"\" /></li></ul><h2 id=\"2-zshrc-파일-찾기\">2. <code class=\"language-plaintext highlighter-rouge\">.zshrc</code> 파일 찾기</h2><ul>  <li><code class=\"language-plaintext highlighter-rouge\">ls -a</code> 를 입력하여 숨겨진 <code class=\"language-plaintext highlighter-rouge\">.zshrc</code> 설정 파일을 찾아 오픈<img src=\"/img/2021-10-14-23-03-18.png\" alt=\"\" /></li></ul><h2 id=\"3-환경변수-등록하기\">3. 환경변수 등록하기</h2><ul>  <li><code class=\"language-plaintext highlighter-rouge\">.zshrc</code> 오픈 후, <code class=\"language-plaintext highlighter-rouge\">export {환경변수명}=$HOME/폴더 또는 파일이 위치한 경로</code>로 환경변수를 등록 후 저장</li>  <li>e.g. <code class=\"language-plaintext highlighter-rouge\">export BLOG_HOME=$HOME/Development/yebinable.github.io</code>    <div class=\"language-js highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code><span class=\"k\">export</span> <span class=\"nx\">BLOG_HOME</span><span class=\"o\">=</span><span class=\"nx\">$HOME</span><span class=\"o\">/</span><span class=\"nx\">Development</span><span class=\"o\">/</span><span class=\"nx\">yebinable</span><span class=\"p\">.</span><span class=\"nx\">github</span><span class=\"p\">.</span><span class=\"nx\">io</span></code></pre></div>    </div>  </li></ul><h2 id=\"4-정상적으로-등록되었는지-확인하기\">4. 정상적으로 등록되었는지 확인하기</h2><ul>  <li>터미널을 새로 시작하여 <code class=\"language-plaintext highlighter-rouge\">echo $BLOG_HOME</code> 입력 후, 경로가 정상적으로 리턴되면 성공 ^^<img src=\"/img/2021-10-14-23-11-20.png\" alt=\"\" /></li></ul>",
+            "url": "https://yebinable.github.io/2021/10/14/zsh-shell-%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0",
             
             
             
