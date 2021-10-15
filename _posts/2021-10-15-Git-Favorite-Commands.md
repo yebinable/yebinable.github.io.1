@@ -1,8 +1,8 @@
 ---
 layout: post
-title: [Git] 자주쓰는 명령어 모음
-description: [Git] 자주쓰는 명령어 모음
-summary: [Git] 자주쓰는 명령어 모음
+title: Git 자주쓰는 명령어 모음
+description: git 자주쓰는 명령어 모음
+summary: git 자주쓰는 명령어 모음
 tags: [git]
 ---
 
