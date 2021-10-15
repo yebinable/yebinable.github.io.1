@@ -1,8 +1,6 @@
 ---
 layout: post
 title: [Git] 자주쓰는 명령어 모음
-description: -
-summary: -
 tags: [git]
 ---
 
