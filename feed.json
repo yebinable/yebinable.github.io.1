@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "https://yebinable.github.io/2021/10/25/csharp-package-manager-console-debugging",
+            "title": "Entity Framework 에서 Package Manage Console에 Debug Attach 하는 방법",
+            "summary": "Entity Framework 에서 Package Manage Console에 Debug Attach 하는 방법",
+            "content_text": "아래 코드를 사용하여 Debugger 를 lunch하면 됨    if(!System.Dignostics.Debugger.IsAttached)        System.Diagnostics.Debugger.Launch();",
+            "content_html": "<h1 id=\"아래-코드를-사용하여-debugger-를-lunch하면-됨\">아래 코드를 사용하여 Debugger 를 lunch하면 됨</h1><div class=\"language-c# highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>    <span class=\"k\">if</span><span class=\"p\">(!</span><span class=\"n\">System</span><span class=\"p\">.</span><span class=\"n\">Dignostics</span><span class=\"p\">.</span><span class=\"n\">Debugger</span><span class=\"p\">.</span><span class=\"n\">IsAttached</span><span class=\"p\">)</span>        <span class=\"n\">System</span><span class=\"p\">.</span><span class=\"n\">Diagnostics</span><span class=\"p\">.</span><span class=\"n\">Debugger</span><span class=\"p\">.</span><span class=\"nf\">Launch</span><span class=\"p\">();</span></code></pre></div></div>",
+            "url": "https://yebinable.github.io/2021/10/25/csharp-package-manager-console-debugging",
+            
+            
+            
+            
+            
+            "date_published": "2021-10-25T00:00:00+09:00",
+            "date_modified": "2021-10-25T00:00:00+09:00",
+            
+                "author":  {
+                "name": "Yebinable",
+                "url": null,
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "https://yebinable.github.io/2021/10/15/google-analytics-report-api-sample",
             "title": "Google Report API Sample",
             "summary": "Google Report API Sample",
